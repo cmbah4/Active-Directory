@@ -20,28 +20,28 @@ A user account (jdoe) was created and multiple failed login attempts were intent
 ## Investigation
 
 ### User Account Created
-![User Created](screenshots3/user_account_created_jdoe.png)
+![User Created](screenshots%303/user_account_created_jdoe.png)
 
 A test user account (jdoe) was created to simulate login activity.
 
 ---
 
 ### Failed Login Attempt
-![Failed Login Attempt](screenshots3/failed_login_attempt.png)
+![Failed Login Attempt](screenshots%303/failed_login_attempt.png)
 
 Multiple incorrect password attempts were made on the jdoe account.
 
 ---
 
 ### Logs Analyzed
-![Multiple Failed Logins](screenshots3/multiple_failed_logins_event_4625.png)
+![Multiple Failed Logins](screenshots%303/multiple_failed_logins_event_4625.png)
 
 Windows Security logs were analyzed using Event Viewer. Event ID 4625 was observed multiple times.
 
 ---
 
 ### Event Details
-![Event Details](screenshots3/event_4625_log_details_jdoe.png)
+![Event Details](screenshots%303/event_4625_log_details_jdoe.png)
 
 Detailed log analysis confirmed that the failed login attempts were targeting the jdoe account.
 
